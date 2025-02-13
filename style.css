@@ -1,0 +1,28 @@
+/* ANCHOR root variables */
+:root {
+
+  --navy-ish: #1b2f45;
+  --lighter-blue-ish: ##4bb3e4;
+  --white-ish: ##f7f9fc;
+
+}
+
+header {
+  color: var(--white-ish);
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1em;
+}
+
+nav a:hover {
+  font-weight: bold;
+  border-bottom: var(--lighter-blue-ish)
+}
+
+/* ANCHOR tag modifiers */
+
+/* ANCHOR class modifiers */
+
+/* ANCHOR media rules */
