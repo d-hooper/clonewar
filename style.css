@@ -31,6 +31,10 @@ nav a:hover {
   color: var(--white-ish);
 }
 
+.bg-white-ish {
+  background-color: var(--white-ish);
+}
+
 .btn-lb {
   background-color: var(--lighter-blue-ish);
   border-radius: 5em;
