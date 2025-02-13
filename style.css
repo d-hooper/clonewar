@@ -14,12 +14,22 @@ header {
 nav a {
   text-decoration: none;
   color: var(--white-ish);
-  padding: 1em;
+  background-color: var(--navy-ish);
+  margin: 0 0.5em;
+  padding: 0.25em 0.75em;
+  border-radius: 5em;
 }
 
 nav a:hover {
   font-weight: bold;
   border-bottom: var(--lighter-blue-ish);
+}
+
+hr {
+  max-width: 100px;
+  color: var(--lighter-blue-ish);
+  font-weight: bold;
+  margin: auto;
 }
 
 /* ANCHOR tag modifiers */
@@ -29,6 +39,11 @@ nav a:hover {
 .hero-text {
   background-color: var(--navy-ish);
   color: var(--white-ish);
+}
+
+
+.transparent-navy-ish {
+  background-color: #1b2f453b; 
 }
 
 .bg-white-ish {
@@ -43,10 +58,15 @@ nav a:hover {
 
 .friends-bg {
   background-image: url(https://images.unsplash.com/photo-1536010305525-f7aa0834e2c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: right;
   background-repeat: no-repeat;
   max-width: 100%;
+
+
+}
+
+.header-row {
   min-height: 80dvh;
 }
 
